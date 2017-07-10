@@ -2,6 +2,7 @@
   metadata: {
     author
     pagecount
+    auth_gender
     genre
     authorgender: [F, M]
     country
