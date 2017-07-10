@@ -1,0 +1,25 @@
+// recommend
+{
+    book_id:
+    filters: {
+        time: []
+        metadata: {
+            author:
+            auth_gender:
+            country:
+            genre:
+            pub_year:
+        }
+        genre_specific: {
+            space: []
+            charcters: []
+        }
+    }
+}
+
+// search
+{
+    q: String
+}
+
+
