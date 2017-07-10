@@ -4,7 +4,7 @@ Exposes the `DBStore` wrapper through REST protocol to other services.
 
 `/write` PUT method, used by the Algorithm service to write data into the database.
 
-`/fetch` POST method, given the x-www-form-urlencoded body of the request
+`/fetch` POST method, given the JSON body of the request
 witch contains the constraints as a JSON object, fetches data from database.
 """
 
