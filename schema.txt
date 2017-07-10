@@ -1,0 +1,49 @@
+{
+  metadata: {
+    author
+    pagecount
+    genre
+    authorgender: [F, M]
+    country
+    lengthtag: [short, medium, long]
+    pubyear
+  }
+  sentiment: {
+    timeline: [(intensity, tag)]
+    overall: {
+      tag1: 
+      tag2: 
+      ...
+    }
+  }
+  time: {
+    labels: {
+      present: 0/1
+      future: 0/1
+      past: 0/1
+      alternative: 0/1
+    }
+    ...
+  }
+  genre: {
+    space: {
+      labels: {
+        insideearth: 0/1
+        otherplanets: 0/1
+        outerspace: 0/1
+        beyondsolarsystem: 0/1
+      }
+    }
+    characters: {
+      aliens: 0/1
+      mutants: 0/1
+      robots: 0/1
+      humanoiddroids: 0/1
+      dragons: 0/1
+      superintelligence: 0/1
+    }
+    phenomena?: {
+      
+    }
+  }
+}
