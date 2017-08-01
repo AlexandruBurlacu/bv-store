@@ -8,6 +8,11 @@
     country
     lengthtag: [short, medium, long]
     pubyear
+    description
+    reviews
+    rating
+    cover
+    title
   }
   sentiment: {
     timeline: [(intensity, tag)]
@@ -36,12 +41,14 @@
       }
     }
     characters: {
-      aliens: 0/1
-      mutants: 0/1
-      robots: 0/1
-      humanoiddroids: 0/1
-      dragons: 0/1
-      superintelligence: 0/1
+      labels: {
+        aliens: 0/1
+        mutants: 0/1
+        robots: 0/1
+        humanoiddroids: 0/1
+        dragons: 0/1
+        superintelligence: 0/1
+      }
     }
     phenomena?: {
       
