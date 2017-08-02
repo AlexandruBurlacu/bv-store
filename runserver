@@ -1,2 +1,2 @@
 #! /bin/sh
-gunicorn --reload -b 0.0.0.0:9000 db_endpoints:__hug_wsgi__
+gunicorn --reload -b localhost:9000 db_endpoints:__hug_wsgi__
