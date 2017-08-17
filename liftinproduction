@@ -1,0 +1,3 @@
+#! /bin/sh
+scp -r dump alex@46.101.122.155:/home/alex
+

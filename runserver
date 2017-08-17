@@ -1,2 +1,2 @@
 #! /bin/sh
-gunicorn --reload -b localhost:9000 db_endpoints:__hug_wsgi__
+gunicorn --reload -w 3 -b 127.0.0.1:9000 db_endpoints:__hug_wsgi__ --log-level debug
