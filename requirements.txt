@@ -1,5 +1,4 @@
 pymongo
 hug
-pylint
 gunicorn
 # gevent
