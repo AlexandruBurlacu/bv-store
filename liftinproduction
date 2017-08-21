@@ -1,3 +1,4 @@
 #! /bin/sh
+mongodump -d BookVoyagerStore
 scp -r dump alex@46.101.122.155:/home/alex
 
