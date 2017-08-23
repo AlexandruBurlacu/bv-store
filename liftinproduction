@@ -1,4 +1,7 @@
 #! /bin/sh
+
+set -e
+
 mongodump -d BookVoyagerStore
 scp -r dump alex@46.101.122.155:/home/alex
-
+rm -r dump
